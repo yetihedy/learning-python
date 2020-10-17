@@ -7,7 +7,7 @@
 
 def most_popular_edu_email():
     filename = input("enter file: ")
-    if len(filename) < 1: filename = "texts/mbox-short.txt"
+    if len(filename) < 1: filename = "../../texts/mbox-short.txt"
     filehandler = open(filename)
     domainsedu = dict()
     for line in filehandler:
@@ -43,7 +43,7 @@ def most_popular_edu_email():
 
 def chattiest_umich_email():
     file = input('enter file: ')
-    if len(file) < 1: file = 'texts/mbox-short.txt'
+    if len(file) < 1: file = '../../texts/mbox-short.txt'
     file_handler = open(file)
     umich = dict()
     for line in file_handler:
