@@ -1,5 +1,5 @@
 file_name = input("Enter file name: ")
-if len(file_name) < 1: file_name = "mbox-short.txt"
+if len(file_name) < 1: file_name = "../../mbox-short.txt"
 file_handler = open(file_name)
 emails = dict()
 for line in file_handler:
