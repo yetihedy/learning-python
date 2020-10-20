@@ -1,4 +1,5 @@
 file_name = input("Enter file name: ")
+file_name = "../../texts/"+file_name
 file_handler = open(file_name)
 count=0
 total_value=0
